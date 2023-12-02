@@ -1,0 +1,25 @@
+body{
+    background-color:  black;
+    color: white;
+}
+.heading{
+   letter-spacing: 5px;
+    font-size: 3em;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(30),
+                cursor .7s step-start infinite alternate;
+}
+.mcq-option{
+ display: flex;
+ justify-content: space-around;
+}
+@keyframes cursor {
+    50%{
+      border-color: transparent
+    }
+}
+@keyframes typing {
+    from{width: 0;}
+}
